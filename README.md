@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# React_Projects
+
+### 1. Movie Project
+
+- fetch api, search feature etc. using ReactJS
+
+![reactMovieAppResult](https://user-images.githubusercontent.com/48887925/124727542-c5daf580-df49-11eb-85a9-b58402ac3501.PNG)
+
+--- 
+>>>>>>> 3ef27c26721740b53abf9cac56728ba9a56b79e4
