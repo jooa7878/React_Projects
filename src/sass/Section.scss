@@ -1,0 +1,62 @@
+$color-bg : #31b3b3;
+$color-white : #fff;
+
+@mixin alignCenter {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+section {
+  color : $color-white;
+  background-color: $color-bg;
+  @include alignCenter();
+
+  .section-container{
+    margin-top:30px;
+    padding :100px 0;
+    .section-title{
+      font-size:4rem;
+      font-weight: 900;
+      line-height: 6rem;
+      position: relative;
+      &::after {  
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        width: 150px;
+        height: 3px;
+        left :0;
+        right: 0;
+        margin : 0 auto;
+        background-color: #DCB13C;
+      }
+    }
+    
+    .section-description {
+      margin-top : 40px;
+      font-size :1.2rem;
+      color : #ffffffe0;
+      font-weight: 700;
+      line-height: 2rem;
+    }
+
+    .btn {
+      margin-top : 80px;
+      padding : 1rem 0.5rem;
+      background-color: transparent;
+      color: $color-white;
+      border : 3px solid #fff;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: .2s;
+      outline :none;
+      &:hover{
+        background-color: $color-white;
+        color:$color-bg;
+      }
+    }
+  }
+}
